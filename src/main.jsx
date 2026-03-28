@@ -4,7 +4,7 @@ import { AuthProvider } from "react-oidc-context";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './index.css'
 import App from './App.jsx'
-import Auth from './Auth.jsx';
+import Auth from './auth.jsx';
 
 const awsRegion = import.meta.env.VITE_AWS_REGION;
 const congitoUserPoolID = import.meta.env.VITE_COGNITO_USER_POOL_ID;
